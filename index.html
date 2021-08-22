@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- section start -->
+    <section class="flexible-container mx-auto">
+        <div class="appleM1-chip">
+            <img src="images/mac.png" alt="">
+        </div>
+        <div class="appleM1-chip">
+            <h1>Customize your Blue 24-inch iMac with Apple M1 chip</h1><br>
+             <p>Apple M1 chip with 8-core CPU with 4 performance cores and effeciency cores,7-core GPU,and 16-core Netural Engine 8GB unified memory 256GB SSSD storage two thunderbolt/USB 4 ports Magic Keybord.US English</p><br>
+               <div id="type-number">         
+            <div id="key-pad" class="numbers">
+             <h5>Memory</h5>
+             <div class="link-button-row">
+                 <button id="memory-button">8GB unified memory</button>
+                 <button id="memoryInput-button">16GB unified memory</button>
+             </div>
+         <h5>Storage</h5>
+         <div class="link-button-row">
+                <button id="storage1-button">25GB SSD storage</button>
+                <button id="storage2-button">512GB SSD storage</button>
+                <button id="storage3-button">1TB SSD storage</button>
+            </div>
+        <h5>Choose your delivery option</h5>
+        <div class="link-button-row">
+                    <button id="delivery1-button">Friday,Aug 25 FREE Prime Delivery</button>
+                    <button id="delivery2-button">Friday,Aug 21 Delivery Charge $20</button>
+                </div>
+                </div>
+                </div>
+        <div id="input-value" class="price-count">
+            <h5>best price-$<span id="price-input">1299</span></h5>
+            <h5>Extra Memory Cost-$<span id="memory-input" >0</span></h5>
+            <h5>Extra Storage Cost-$<span id="storage-input">0</span></h5>
+            <h5>Delivery charge-$<span id="delivery-input">0</span></h5>
+            <hr>
+            <h5 >Total price-$<span id="sub-total">1299</span></h5> <br>
+            <h5>Add promo code</h5>
+            <div><input id="input-field" class="field-size" type="text">
+                <button id="getPin" class="color">Apply</button></div>
+        </div>
+    </div>
+    </section>
+    <!-- section end -->
+      <hr>
+      <h2>Total:&<span id ="discount">1299</span></h2>
+   <script src="mac.js"></script>
+</body>
+</html>
+

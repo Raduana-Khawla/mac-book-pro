@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+hr {
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.color {
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+}
+
+.appleM1-chip {
+    width: 60%;
+    padding-left: 5%;
+
+}
+
+.appleM1-chip img {
+    width: 40%;
+    padding-left: 300px;
+    padding-top: 50px;
+
+}
+
+.field-size {
+    padding: 15px 30px;
+}
+
+.link-button-row {
+    margin: 5px;
+    padding: 40px, 50px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.link-button-row:focus {
+    background-color: #3D4153;
+    color: #fff;
+}
+
+.price-count {
+    padding: 50px;
+}
